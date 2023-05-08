@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bold {
+    text-align: center;
+    width: 100%;
+    font-size: calc(100vw - 96vw);
+    margin-top: 0;
+    color: #eee
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: calc(100vh - 92vh);
+    background-color: brown;
+}
+
+#navbar-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+.list-of-nav {
+    margin-right: calc(100vw - 96vw);
+    font-size: 1.5rem;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+#welcome-section {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(61, 60, 60), rgb(32, 31, 31));
+    overflow: scroll;
+}
+
+#about {
+    margin: 0 auto;
+    padding-top: 20vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#carrier {
+    text-align: center;
+    color: brown;
+    margin-top: -3%;
+    font-size: calc(100vw - 97vw);
+    font-family: 'Poppins', sans-serif;
+}
+
+#summary {
+    width: 80%;
+    margin: 20px auto;
+    font-size: calc(100vw - 98vw);
+    color: rgb(175, 126, 181);
+}
+
+#projects {
+    width: 100vw;
+    background-color: #45567d;
+    margin-bottom: 0;
+}
+
+h2 {
+    width: 55vw;
+    text-align: center;
+    color: #eee;
+    margin: 0px auto;
+    border-bottom: 2px solid #eee;
+    font-size: calc(100vw - 96vw);
+    padding-top: 9%;
+}
+
+#list-of-projects {
+    width: calc(100vw - 10vw);
+    margin: 7% auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 7%;
+    /* background-color: antiquewhite; */
+}
+
+.project-img {
+    width: 30%;
+    height: calc(100vh - 20vh);
+    margin: 20px;
+    padding: 0;
+    background-color: #303841;
+    text-decoration: none;
+    color: #d5d4d4
+    /* background-color: #45567d; */
+}
+
+img {
+    object-fit: fill;
+    width: 100%;
+    height: 90%;
+    margin-top: 0;
+}
+
+.project-name {
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    font-size: calc(100vw - 98vw);
+    text-align: center;
+    padding-top: 1.8%;
+}
+
+#contact {
+    width: 100vw;
+    height: 100vh;
+    background-color: #303841;
+    overflow: scroll;
+}
+
+#invitation {
+    width: 80%;
+    height: 200px;
+    margin: 0px auto 0px auto;
+    padding-top: 40vh;
+    color: #eee;
+    font-family: 'Raleway', sans-serif;
+}
+
+#offer {
+    text-align: center;
+    width: 100%;
+    font-size: calc(100vw - 96vw);
+    margin-top: 0;
+    color: #eee
+}
+
+#pages-links {
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.pages {
+    font-size: calc(100vw - 98vw);
+    font-family: 'Poppins', sans-serif;
+}
+
+.pages a {
+    color: #d5d4d4;
+    text-decoration: none;
+}
+
+.divider {
+    padding-right: calc(100vw - 99vw);
+}
+
+@media (max-width: 700px) {
+    .bold {
+        font-size: calc(100vw - 93vw);
+    }
+
+    #carrier {
+        font-size: calc(100vw - 95vw);
+    }
+
+    #summary {
+        font-size: calc(100vw - 96vw);
+    }
+
+    h2 {
+        width: 65vw;
+        font-size: calc(100vw - 95vw);
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .project-name {
+        font-size: calc(100vw - 95vw)
+    }    
+
+    #invitation {
+        width: calc(100vw - 40vw);
+        margin: 0px auto 0px auto;
+        padding-top: 20vh;
+        color: #eee;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    #offer {
+        font-size: calc(100vw - 89vw);
+    }
+
+    #pages-links {
+        width: calc(100vw - 40vw);
+        margin: calc(100vh - 95vh) auto 0% auto;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .pages {
+        font-size: calc(100vw - 94vw);
+        margin-top: calc(100vh - 95vh);
+    }
+}
