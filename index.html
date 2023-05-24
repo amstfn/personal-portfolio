@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <title>Personal Portfolio</title>
 </head>
 
@@ -38,34 +41,62 @@
     <section id="projects">
         <h2>These are some of my projects</h2>
         <div id="list-of-projects">
-            <a class="project-img" href="https://amstfn.github.io/weather-app.github.io/" target="_blank">
-                <img src="https://www.linkpicture.com/q/weather-app-img.png" alt="calculator-img">
-                <p class="project-name">Weather App</p>
-            </a>
-            <a class="project-img" href="https://amstfn.github.io/shop-app.github.io/" target="_blank">
-                <img src="https://i.ibb.co/fSzJfpz/shop-image.png" alt="shop-img">
-                <p class="project-name">Shop App</p>
-            </a>
-            <a class="project-img" href="https://amstfn.github.io/markdown-previewer.github.io/" target="_blank">
-                <img src="https://i.ibb.co/wsC0vDx/markdown-previewer-image.png" alt="markdown-previewer-image" >
-                <p class="project-name">Markdown Previewer</p>
-            </a>
-            <a class="project-img" href="https://amstfn.github.io/Quote-Machine.github.io/" target="_blank">
-                <img src="https://i.ibb.co/P44VDG1/quote-machine-image.png" alt="Quote-Machine-img">
-                <p class="project-name">Quote Machine</p>
-            </a>
-            <a class="project-img" href="https://amstfn.github.io/contact-app.github.io/#/" target="_blank">
-                <img src="https://www.linkpicture.com/q/contact-app-image_1.png" alt="contact-app-img">
-                <p class="project-name">Contact Manager</p>
-            </a>
-            <a class="project-img" href="https://amstfn.github.io/calculator.github.io/" target="_blank">
-                <img src="https://www.linkpicture.com/q/calculator-img.png" alt="calculator-img">
-                <p class="project-name">JavaScript calculator</p>
-            </a>
-            <a class="project-img" href="https://amstfn.github.io/drum-machine.github.io/" target="_blank">
-                <img src="https://www.linkpicture.com/q/drum-machine-img.png" alt="drum-machine">
-                <p class="project-name">Drum machine</p>
-            </a>
+            <div class="project-img">
+                <a href="https://amstfn.github.io/weather-app.github.io/" target="_blank">
+                    <img src="https://www.linkpicture.com/q/weather-app-img.png" alt="calculator-img" />
+                </a>
+                <a href="https://github.com/amstfn/weather-app.github.io" target="_blank">
+                    <p class="project-name fab fa-github fa-2x">Weather App</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="https://amstfn.github.io/shop-app.github.io/" target="_blank">
+                    <img src="https://i.ibb.co/fSzJfpz/shop-image.png" alt="shop-img" />
+                </a>
+                <a href="https://github.com/amstfn/shop-app.github.io" target="_blank">
+                    <p class="project-name fab fa-github fa-2x">Shop App</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="https://amstfn.github.io/markdown-previewer.github.io/" target="_blank">
+                    <img src="https://i.ibb.co/wsC0vDx/markdown-previewer-image.png" alt="markdown-previewer-image" />
+                </a>
+                <a href="https://github.com/amstfn/markdown-previewer.github.io" target="_blank">
+                    <p class="project-name fab fa-github fa-2x">Markdown Previewer</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="https://amstfn.github.io/Quote-Machine.github.io/" target="_blank">
+                    <img src="https://i.ibb.co/P44VDG1/quote-machine-image.png" alt="Quote-Machine-img" />
+                </a>
+                <a href="https://github.com/amstfn/Quote-Machine.github.io" target="_blank">
+                    <p class="project-name fab fa-github fa-2x">Quote Machine</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="https://amstfn.github.io/calculator.github.io/" target="_blank">
+                    <img src="https://i.ibb.co/R2Mnv2B/calculator-image.png" alt="calculator-image" />
+                </a>
+                <a href="https://github.com/amstfn/calculator.github.io" target="_blank">
+                    <p class="project-name fab fa-github fa-2x">JavaScript calculator</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="https://amstfn.github.io/drum-machine.github.io/" target="_blank">
+                    <img src="https://i.ibb.co/GxBQ1Mk/drum-machine-image.png" alt="drum-machine-image" />
+                </a>
+                <a href="https://github.com/amstfn/drum-machine.github.io" target="_blank">
+                    <p class="project-name fab fa-github fa-2x">Drum machine</p>
+                </a>
+            </div>
+            <!-- <div class="project-img">
+                <a href="https://amstfn.github.io/contact-app.github.io/#/" target="_blank">
+                    <img src="https://www.linkpicture.com/q/contact-app-image_1.png" alt="contact-app-img" />
+                </a>
+                <a href="https://github.com/amstfn/contact-app.github.io" target="_blank">
+                    <p class="project-name fab fa-github fa-2x">Drum machine</p>
+                </a>
+            </div> -->
         </div>
     </section>
     <section id="contact">
@@ -78,7 +109,8 @@
                 <li class="pages"> <a href="https://www.linkedin.com/in/amir-sefidgar-539779250/" target="_blank"><i
                             class="divider fab fa-linkedin"></i>Linkedin</a>
                 </li>
-                <li class="pages"> <a href="mailto:amirshahanaqi@gmail.com"><i class="divider fas fa-at"></i>Send a mail</a>
+                <li class="pages"> <a href="mailto:amirshahanaqi@gmail.com"><i class="divider fas fa-at"></i>Send a
+                        mail</a>
                 </li>
                 <li class="pages"> <a href="tel:+989211487743"><i class="divider fas fa-mobile-alt"></i>Call me</a>
                 </li>
